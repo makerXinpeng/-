@@ -1,0 +1,4 @@
+﻿霍夫曼树.obj : error LNK2005: "struct HuffmanTree * HfmTree" (?HfmTree@@3PAUHuffmanTree@@A) 已经在 Huffman.obj 中定义
+霍夫曼树.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * HfmCode" (?HfmCode@@3PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) 已经在 Huffman.obj 中定义
+霍夫曼树.obj : error LNK2005: "int length" (?length@@3HA) 已经在 Huffman.obj 中定义
+F:\大学学习\大二\数据结构大二上\数据结构实验作业\1725111006陈新朋实验5\代码\霍夫曼树\Debug\霍夫曼树.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
