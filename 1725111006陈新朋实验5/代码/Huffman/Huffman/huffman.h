@@ -29,7 +29,7 @@ public:
 		HuffmanCode = NULL;
 		SumCode = NULL;
 	}
-	void init();//初始化（Initialization）。从终端读入字符集大小n,以及n个字符和n个权值，建立哈夫曼树，并将它存于文件hfmTree中。
+	void init();//初始化（Initialization）。从终端或文件读入字符集大小n,以及n个字符和n个权值，建立哈夫曼树，并将它存于文件hfmTree中。
 	void print();//印哈夫曼树（Tree printing）。将已在内存中的哈夫曼树以直观的方式（树或凹入表形式）显示在终端上，同时将此字符形式的哈夫曼树写入文件TreePrint中。
 	void printHFMCode();
 	void Encoding();//编码（Encoding）。利用已建好的哈夫曼树（如不在内存，则从文件hfmTree中读入），对文件ToBeTran中的正文进行编码，然后将结果存入文件CodeFile中。
